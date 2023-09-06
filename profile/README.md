@@ -1,7 +1,57 @@
-<div align="center">
-  <h1>Em desenvolvimento...</h1>
-  <br>
-  <br>
-  <br>
-  <img height="300px" src="https://github.com/SA-Back-End/.github/assets/102625628/49d1c849-060c-4ea2-a604-9afad62620a3"/>
-</div>
+# Skills
+_Encontre o necessário!_
+
+<br>
+
+## Tech
+
+O projeto utiliza vários projetos de código aberto para funcionar corretamente:
+
+- [ReactJS](https://react.dev/) - Sistema web responsivo para diferentes plataformas.
+- [NestJS](https://nestjs.com/) - API e sistema de Back-End do projeto.
+- [Swagger](https://swagger.io/) - Design, Desenvolvimento, Documentação, Teste e Virtualização da API. 
+- [JWT](https://jwt.io/) - Sistema de autenticação/autorização de usuário.
+- [Jest](https://jestjs.io/pt-BR/) - Testes da aplicação.
+- [PostgreSQL](https://www.postgresql.org/) - Banco de Dados relacional do projeto.
+
+E é claro que o próprio projeto é open source com um [repositório público](https://github.com/SA-Back-End) no GitHub.
+
+<br>
+
+## Instalação
+
+Houston precisa do [Node.js](https://nodejs.org/) em sua versão v10+ para rodar.
+
+Instale todas as dependências necessárias e inicie o servidor:
+
+```sh 
+# Na pasta do projeto
+
+# Para instalar as dependências da API e rodá-la
+cd api
+npm i
+npm run start
+```
+### *Atenção*
+Para rodar a API localmente, certifique-se de alterar o arquivo `.env` do projeto para as especificações do seu banco de dados. No exemplo abaixo, é utilizado o usuário `postgres` com a senha `postgres` na porta local 5432. Além disso, tem-se o nome do banco como `minhaDB`.
+```sh 
+DATABASE_URL="postgresql://postgres:senai@localhost:5432/minhaDB?schema=public"
+```
+
+<br>
+
+Como modelo para substituir as informações pelas suas, segue abaixo um link com os espaços onde se deve substituir. 
+```sh 
+DATABASE_URL="postgresql://<seuUsuario>:<suaSenha>@localhost:<porta>/<nomeDoBanco>?schema=public"
+```
+
+<br>
+
+```
+# Na pasta do projeto
+
+# Para instalar as dependências do Front-End e rodá-lo
+cd frontend
+npm i
+npm start
+```
