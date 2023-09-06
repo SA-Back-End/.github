@@ -1,5 +1,5 @@
 # Skills
-_Encontre o necessário!_
+_Conectando para o futuro!_
 
 <br>
 
@@ -20,7 +20,7 @@ E é claro que o próprio projeto é open source com um [repositório público](
 
 ## Instalação
 
-Houston precisa do [Node.js](https://nodejs.org/) em sua versão v10+ para rodar.
+Skills precisa do [Node.js](https://nodejs.org/) em sua versão v10+ para rodar.
 
 Instale todas as dependências necessárias e inicie o servidor:
 
