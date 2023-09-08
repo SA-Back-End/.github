@@ -28,7 +28,7 @@ Instale todas as dependências necessárias e inicie o servidor:
 # Na pasta do projeto
 
 # Para instalar as dependências da API e rodá-la
-cd api
+cd Back-End
 npm i
 npm run start
 ```
@@ -51,7 +51,7 @@ DATABASE_URL="postgresql://<seuUsuario>:<suaSenha>@localhost:<porta>/<nomeDoBanc
 # Na pasta do projeto
 
 # Para instalar as dependências do Front-End e rodá-lo
-cd frontend
+cd Front-End
 npm i
 npm start
 ```
