@@ -9,9 +9,9 @@ O projeto utiliza vários projetos de código aberto para funcionar corretamente
 
 - [ReactJS](https://react.dev/) - Sistema web responsivo para diferentes plataformas.
 - [NestJS](https://nestjs.com/) - API e sistema de Back-End do projeto.
+  [Prisma](https://www.prisma.io/) - ORM para PostgreSQL
 - [Swagger](https://swagger.io/) - Design, Desenvolvimento, Documentação, Teste e Virtualização da API. 
 - [JWT](https://jwt.io/) - Sistema de autenticação/autorização de usuário.
-- [Jest](https://jestjs.io/pt-BR/) - Testes da aplicação.
 - [PostgreSQL](https://www.postgresql.org/) - Banco de Dados relacional do projeto.
 
 E é claro que o próprio projeto é open source com um [repositório público](https://github.com/SA-Back-End) no GitHub.
@@ -30,7 +30,8 @@ Instale todas as dependências necessárias e inicie o servidor:
 # Para instalar as dependências da API e rodá-la
 cd Back-End
 npm i
-npm run start
+npx prisam migrate dev --name init
+npm run start:dev
 ```
 ### *Atenção*
 Para rodar a API localmente, certifique-se de alterar o arquivo `.env` do projeto para as especificações do seu banco de dados. No exemplo abaixo, é utilizado o usuário `postgres` com a senha `postgres` na porta local 5432. Além disso, tem-se o nome do banco como `minhaDB`.
