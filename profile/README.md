@@ -1,6 +1,10 @@
 # Skills
 _Conectando para o futuro!_
 
+A Skills é uma plataforma sem fins lucrativos para pessoas que buscam se desafiar em qualquer área para crescer pessoal e profissionalmente, através da experiência do desenvolvimento de projetos em equipes. Possibilitamos que os usuários encontrem parceiros ideais para colaborar com seus projetos pessoais através da análise de preferências e características de perfis compatíveis que facilitam sua busca.
+
+Somos um projeto desenvolvido pela turma do SENAI/SC de Aprendizagem Industrial para Programação Back-End com o objetivo de colocar em prática nossos conhecimentos adquiridos durante o curso e exibi-los na amostra de inovação “Mundo Senai” do ano de 2023, estimulando nossos sentidos de criatividade, lógica e inovação.
+
 <br>
 
 ## Tech
