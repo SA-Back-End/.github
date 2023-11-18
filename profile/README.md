@@ -60,3 +60,7 @@ cd Front-End
 npm i
 npm start
 ```
+
+<br>
+
+_Mais informações sobre a instalação nos repositórios específicos de cada área do projeto (Front-End e Back-End)_
